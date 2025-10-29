@@ -1,17 +1,18 @@
-# Spanish translation of django-otp.
-# Copyright (C) Listed translators
-# This file is distributed under the same license as the django-otp package.
-# Miguel González <migonzalvar@gmail.com>, 2022
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
+#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: django-otp master\n"
+"Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-24 17:22-0500\n"
-"PO-Revision-Date: 2022-11-09 19:43+0100\n"
-"Last-Translator: \n"
-"Language-Team: \n"
-"Language: es\n"
+"POT-Creation-Date: 2025-10-29 14:40-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -19,26 +20,25 @@ msgstr ""
 
 #: src/django_otp/forms.py:63
 msgid "Please enter your OTP token."
-msgstr "Por favor introduzca su token OTP."
+msgstr "Si us plau, introduïu el vostre token OTP."
 
 #: src/django_otp/forms.py:64
 #, python-brace-format
 msgid "Error generating challenge: {0}"
-msgstr "Error al generar el reto: {0}"
+msgstr "Error en generar el repte: {0}"
 
 #: src/django_otp/forms.py:65
 msgid "The selected OTP device is not interactive"
-msgstr "EL dispositivo OTP seleccionado no es interactivo"
+msgstr "El dispositiu OTP seleccionat no és interactiu"
 
 #: src/django_otp/forms.py:66
 #, python-brace-format
 msgid "OTP Challenge: {0}"
-msgstr "Reto OTP: {0}"
+msgstr "Repte OTP: {0}"
 
 #: src/django_otp/forms.py:68
 msgid "Invalid token. Please make sure you have entered it correctly."
-msgstr ""
-"Token no válido. Por favor asegúrese de que lo ha introducido correctamente."
+msgstr "Token no vàlid. Assegureu-vos que l'heu introduït correctament."
 
 #: src/django_otp/forms.py:71
 #, python-format
@@ -49,15 +49,13 @@ msgid_plural ""
 "Verification temporarily disabled because of %(failure_count)d failed "
 "attempts, please try again soon."
 msgstr[0] ""
-"La verificación está temporalmente deshabilitada porque ha habido "
-"%(failure_count)d intento fallido, por favor inténtelo de nuevo más tarde."
+"Verificació temporalment desactivada a causa de %(failure_count)d intent fallit. Torneu-ho a intentar aviat."
 msgstr[1] ""
-"La verificación está temporalmente deshabilitada porque ha habido "
-"%(failure_count)d intentos fallidos, por favor inténtelo de nuevo más tarde."
+"Verificació temporalment desactivada a causa de %(failure_count)d intents fallits. Torneu-ho a intentar aviat."
 
 #: src/django_otp/forms.py:76
 msgid "Verification of the token is currently disabled"
-msgstr "La verificación del token está desactivada en este momento"
+msgstr "La verificació del token està actualment desactivada"
 
 #: src/django_otp/plugins/otp_email/models.py:75
 #, python-format
@@ -65,24 +63,24 @@ msgid ""
 "Token generation cooldown period has not expired yet. Next generation "
 "allowed %s."
 msgstr ""
-"El periodo de recuperación de la generación de tokens aún no ha expirado. Próxima generación "
-"permitida %s."
+"El període de temps de reinici de la generació de tokens encara no ha caducat. Es permet la propera "
+"generació %s."
 
 #: src/django_otp/plugins/otp_email/models.py:81
 msgid "Token generation is not allowed at this time"
-msgstr "La generación de tokens no está permitida en este momento"
+msgstr "La generació de tokens no està permesa en aquest moment."
 
-#: src/django_otp/plugins/otp_email/models.py:108
+#: src/django_otp/plugins/otp_email/models.py:109
 msgid "sent by email"
-msgstr "enviado por email"
+msgstr ""
 
 #: src/django_otp/templates/otp/admin111/login.html:38
 msgid "Please correct the error below."
-msgstr "Por favor corrija el error abajo indicado."
+msgstr "enviat per email"
 
 #: src/django_otp/templates/otp/admin111/login.html:38
 msgid "Please correct the errors below."
-msgstr "Por favor corrija los errores abajo indicados."
+msgstr "Si us plau, corregiu els errors següents."
 
 #: src/django_otp/templates/otp/admin111/login.html:54
 #, python-format
@@ -90,12 +88,12 @@ msgid ""
 "You are authenticated as %(username)s, but are not authorized to access this "
 "page. Would you like to login to a different account?"
 msgstr ""
-"Usted está autenticado como %(username)s, pero no está autorizado a acceder "
-"a esta página. ¿Desea iniciar sesión con una cuenta diferente?"
+"Esteu autenticat com a %(username)s, però no esteu autoritzat a accedir a aquesta "
+"pàgina. Voleu iniciar la sessió amb un compte diferent?"
 
 #: src/django_otp/templates/otp/admin111/login.html:74
 msgid "OTP Device:"
-msgstr "Dispositivo OTP:"
+msgstr "Dispositiu OTP:"
 
 #: src/django_otp/templates/otp/admin111/login.html:79
 msgid "OTP Token:"
@@ -103,12 +101,12 @@ msgstr "Token OTP:"
 
 #: src/django_otp/templates/otp/admin111/login.html:84
 msgid "Forgotten your password or username?"
-msgstr "¿Ha olvidado la contraseña o el nombre de usuario?"
+msgstr "Has oblidat la contrasenya o el nom d'usuari?"
 
 #: src/django_otp/templates/otp/admin111/login.html:88
 msgid "Log in"
-msgstr "Iniciar sesión"
+msgstr "Inicieu sessió"
 
 #: src/django_otp/templates/otp/admin111/login.html:90
 msgid "Get OTP Challenge"
-msgstr "Obtenga reto OTP"
+msgstr "Obteniu el repte OTP"
