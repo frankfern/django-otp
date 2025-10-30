@@ -63,8 +63,8 @@ msgid ""
 "Token generation cooldown period has not expired yet. Next generation "
 "allowed %s."
 msgstr ""
-"El període de temps de reinici de la generació de tokens encara no ha caducat. Es permet la propera "
-"generació %s."
+"El període de refredament de la generació de token encara no ha expirat. Es permet la"
+"generació següent %s."
 
 #: src/django_otp/plugins/otp_email/models.py:81
 msgid "Token generation is not allowed at this time"
@@ -72,15 +72,11 @@ msgstr "La generació de tokens no està permesa en aquest moment."
 
 #: src/django_otp/plugins/otp_email/models.py:109
 msgid "sent by email"
-msgstr ""
-
-#: src/django_otp/templates/otp/admin111/login.html:38
-msgid "Please correct the error below."
 msgstr "enviat per email"
 
 #: src/django_otp/templates/otp/admin111/login.html:38
 msgid "Please correct the errors below."
-msgstr "Si us plau, corregiu els errors següents."
+msgstr "Si us plau, corregiu els següents errors."
 
 #: src/django_otp/templates/otp/admin111/login.html:54
 #, python-format
@@ -88,7 +84,7 @@ msgid ""
 "You are authenticated as %(username)s, but are not authorized to access this "
 "page. Would you like to login to a different account?"
 msgstr ""
-"Esteu autenticat com a %(username)s, però no esteu autoritzat a accedir a aquesta "
+"Estàs autenticat com a %(username)s, però no esteu autoritzat a accedir a aquesta "
 "pàgina. Voleu iniciar la sessió amb un compte diferent?"
 
 #: src/django_otp/templates/otp/admin111/login.html:74
@@ -105,7 +101,7 @@ msgstr "Has oblidat la contrasenya o el nom d'usuari?"
 
 #: src/django_otp/templates/otp/admin111/login.html:88
 msgid "Log in"
-msgstr "Inicieu sessió"
+msgstr "Inicia sessió"
 
 #: src/django_otp/templates/otp/admin111/login.html:90
 msgid "Get OTP Challenge"
