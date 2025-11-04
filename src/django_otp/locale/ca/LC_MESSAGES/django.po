@@ -63,7 +63,7 @@ msgid ""
 "Token generation cooldown period has not expired yet. Next generation "
 "allowed %s."
 msgstr ""
-"El període de refredament de la generació de token encara no ha expirat. Es permet la"
+"El període de temps de reinici de la generació de tokens encara no ha expirat. Es permet la"
 "generació següent %s."
 
 #: src/django_otp/plugins/otp_email/models.py:81
